@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hafta6_odev">
         <activity
+            android:name=".istanbul"
+            android:exported="false" />
+        <activity
+            android:name=".izmir"
+            android:exported="false" />
+        <activity
+            android:name=".ankara"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
